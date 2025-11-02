@@ -4,7 +4,7 @@ name: Unzip tiles
 on:
   push:
     paths:
-      - 'map-tiles.zip'
+      - 'tiles.zip'
   workflow_dispatch:  # ← Добавлено! Позволяет запустить вручную
 
 jobs:
