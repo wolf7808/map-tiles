@@ -1,9 +1,11 @@
 name: Unzip tiles
 
+# ТРИГГЕРЫ: push + ручной запуск
 on:
   push:
     paths:
       - 'tiles.zip'
+  workflow_dispatch:  # ← Добавлено! Позволяет запустить вручную
 
 jobs:
   unzip:
