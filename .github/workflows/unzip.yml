@@ -1,13 +1,16 @@
 name: Unzip tiles
 
+# Триггеры: при загрузке tiles.zip или по кнопке
 on:
   push:
     paths:
       - 'tiles.zip'
-  workflow_dispatch:
+  workflow_dispatch:  # ← КНОПКА "Run workflow"
 
+# ПРАВА: обязательно для git push
 permissions:
-  contents: write   # ← ЭТО ВАЖНО!
+  contents: write
+  pull-requests: write
 
 jobs:
   unzip:
@@ -21,31 +24,31 @@ jobs:
       - name: Install unzip
         run: sudo apt-get update && sudo apt-get install -y unzip
 
-      - name: Debug: List files
+      - name: Debug - List files
         run: ls -la
 
       - name: Validate ZIP
         run: |
           if ! file tiles.zip | grep -q "Zip archive"; then
-            echo "ERROR: Not a valid ZIP file!"
+            echo "ERROR: tiles.zip is not a valid ZIP file!"
             file tiles.zip
             exit 1
           fi
-          echo "ZIP is valid"
+          echo "ZIP file is valid"
 
-      - name: Unzip
+      - name: Unzip tiles
         run: |
           mkdir -p tiles
           unzip -o tiles.zip -d tiles/
-          echo "Unzipped $(find tiles -type f | wc -l) files"
+          echo "Unzipped $(find tiles -type f | wc -l) files into 'tiles/'"
 
       - name: Remove ZIP
-        run: rm tiles.zip
+        run: rm -f tiles.zip
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions@github.com"
+          git config user.email "actions@github.com"
           git add tiles/
-          git commit -m "Unpacked tiles.zip" || echo "Nothing to commit"
-          git push
+          git commit -m "Unpacked tiles.zip into tiles/" || echo "No changes to commit"
+          git push origin HEAD:main || echo "Push failed or no changes"
