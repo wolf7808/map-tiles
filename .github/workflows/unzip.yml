@@ -40,7 +40,7 @@ jobs:
         run: |
           mkdir -p tiles2
           unzip -o tiles.zip -d tiles2/
-          echo "Unzipped $(find tiles -type f | wc -l) files into 'tiles/'"
+          echo "Unzipped $(find tiles2 -type f | wc -l) files into 'tiles2/'"
 
       - name: Remove ZIP
         run: rm -f tiles.zip
@@ -49,6 +49,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
-          git add tiles/
-          git commit -m "Unpacked tiles.zip into tiles/" || echo "No changes to commit"
+          git add tiles2/
+          git commit -m "Unpacked tiles.zip into tiles2/" || echo "No changes to commit"
           git push origin HEAD:main || echo "Push failed or no changes"
