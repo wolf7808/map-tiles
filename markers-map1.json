@@ -1,0 +1,92 @@
+[
+  {
+    "x": 788,
+    "y": 603,
+    "title": "Point of Interest",
+    "type": "poi"
+  },
+  {
+    "x": 790,
+    "y": 606,
+    "title": "Materials",
+    "type": "material"
+  },
+  {
+    "x": 284,
+    "y": 938,
+    "title": "Crate",
+    "type": "crate"
+  },
+  {
+    "x": 285,
+    "y": 933,
+    "title": "Crate",
+    "type": "crate"
+  },
+  {
+    "x": 288,
+    "y": 934,
+    "title": "Crate",
+    "type": "crate"
+  },
+  {
+    "x": 283,
+    "y": 929,
+    "title": "Materials",
+    "type": "material"
+  },
+  {
+    "x": 291,
+    "y": 926,
+    "title": "Point of Interest",
+    "type": "poi"
+  },
+  {
+    "x": 290,
+    "y": 921,
+    "title": "Materials",
+    "type": "material"
+  },
+  {
+    "x": 919,
+    "y": 1756,
+    "title": "Point of Interest",
+    "type": "poi"
+  },
+  {
+    "x": 915,
+    "y": 1756,
+    "title": "Materials",
+    "type": "material"
+  },
+  {
+    "x": 1217,
+    "y": 1061,
+    "title": "Challenge",
+    "type": "challenge"
+  },
+  {
+    "x": 818,
+    "y": 409,
+    "title": "Materials",
+    "type": "material"
+  },
+  {
+    "x": 754,
+    "y": 400,
+    "title": "Boss",
+    "type": "boss"
+  },
+  {
+    "x": 846,
+    "y": 1515,
+    "title": "Challenge",
+    "type": "challenge"
+  },
+  {
+    "x": 743,
+    "y": 1459,
+    "title": "Point of Interest",
+    "type": "poi"
+  }
+]
