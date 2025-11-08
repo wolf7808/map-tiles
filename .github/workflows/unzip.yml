@@ -1,10 +1,10 @@
-name: Unzip tiles
+name: Unzip svg
 
-# Триггеры: при загрузке tiles.zip или по кнопке
+# Триггеры: при загрузке svg.zip или по кнопке
 on:
   push:
     paths:
-      - 'tiles.zip'
+      - 'svg.zip'
   workflow_dispatch:  # ← КНОПКА "Run workflow"
 
 # ПРАВА: обязательно для git push
@@ -29,26 +29,26 @@ jobs:
 
       - name: Validate ZIP
         run: |
-          if ! file tiles.zip | grep -q "Zip archive"; then
-            echo "ERROR: tiles.zip is not a valid ZIP file!"
-            file tiles.zip
+          if ! file svg.zip | grep -q "Zip archive"; then
+            echo "ERROR: svg.zip is not a valid ZIP file!"
+            file svg.zip
             exit 1
           fi
           echo "ZIP file is valid"
 
-      - name: Unzip tiles
+      - name: Unzip svg
         run: |
-          mkdir -p tiles2
-          unzip -o tiles.zip -d tiles2/
-          echo "Unzipped $(find tiles2 -type f | wc -l) files into 'tiles2/'"
+          mkdir -p svg2
+          unzip -o svg.zip -d svg2/
+          echo "Unzipped $(find svg2 -type f | wc -l) files into 'svg2/'"
 
       - name: Remove ZIP
-        run: rm -f tiles.zip
+        run: rm -f svg.zip
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
-          git add tiles2/
-          git commit -m "Unpacked tiles.zip into tiles2/" || echo "No changes to commit"
+          git add svg2/
+          git commit -m "Unpacked svg.zip into svg2/" || echo "No changes to commit"
           git push origin HEAD:main || echo "Push failed or no changes"
