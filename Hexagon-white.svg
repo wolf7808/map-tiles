@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="darken" color-interpolation-filters="sRGB">
+      <feColorMatrix type="saturate" values="1.3"/>
+      <feColorMatrix type="matrix" values="
+        0.7 0   0   0 0
+        0   0.7 0   0 0
+        0   0   0.7 0 0
+        0   0   0   1 0"/>
+    </filter>
+    <path id="hex" d="M50 12 L80.5 27 L80.5 63 L50 78 L19.5 63 L19.5 27 Z"/>
+  </defs>
+  <use href="#hex" fill="none" stroke="#cccccc" stroke-width="10" filter="url(#darken)"/>
+  <use href="#hex" fill="#ffffff"/>
+</svg>
