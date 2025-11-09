@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="darken" color-interpolation-filters="sRGB">
-      <feColorMatrix type="saturate" values="1.3"/>
-      <feColorMatrix type="matrix" values="
-        0.7 0   0   0 0
-        0   0.7 0   0 0
-        0   0   0.7 0 0
-        0   0   0   1 0"/>
-    </filter>
-    <path id="hex" d="M50 12 L80.5 27 L80.5 63 L50 78 L19.5 63 L19.5 27 Z"/>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#dcdcdc"/>
+      <stop offset="100%" stop-color="#9e9e9e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </radialGradient>
+    <path id="hex" d="M50 10 L83 30 L83 70 L50 90 L17 70 L17 30 Z"/>
   </defs>
-  <use href="#hex" fill="none" stroke="#cccccc" stroke-width="10" filter="url(#darken)"/>
-  <use href="#hex" fill="#ffffff"/>
+  <use href="#hex" fill="url(#glow)" stroke="url(#shine)" stroke-width="6"/>
 </svg>
