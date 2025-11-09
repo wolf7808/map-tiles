@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- Обводка — металлический градиент -->
     <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ff66ff"/>
+      <stop offset="0%" stop-color="#ff99ff"/>
+      <stop offset="50%" stop-color="#990099"/>
       <stop offset="100%" stop-color="#330033"/>
     </linearGradient>
+
+    <!-- Центральное свечение -->
     <radialGradient id="core" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#ffccff"/>
-      <stop offset="100%" stop-color="#800080"/>
+      <stop offset="0%" stop-color="#ffe6ff"/>
+      <stop offset="60%" stop-color="#cc33cc"/>
+      <stop offset="100%" stop-color="#550055"/>
     </radialGradient>
+
     <path id="hex" d="M50 10 L83 30 L83 70 L50 90 L17 70 L17 30 Z"/>
   </defs>
-  <use href="#hex" fill="url(#core)" stroke="url(#edge)" stroke-width="8"/>
+
+  <!-- Толстая обводка + градиентная заливка -->
+  <use href="#hex" fill="url(#core)" stroke="url(#edge)" stroke-width="10"/>
 </svg>
