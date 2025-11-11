@@ -221,5 +221,8 @@
 {"x":277,"y":423,"title":"Artifact // Артефакт","type":"artifact","T":"1"},
 {"x":728,"y":855,"title":"Artifact // Артефакт","type":"artifact","T":"1"},
 {"x":1588,"y":691,"title":"Artifact // Артефакт","type":"artifact","T":"1"},
-{"x":741,"y":425,"title":"Artifact // Артефакт","type":"artifact","T":"1"}
+{"x":741,"y":425,"title":"Artifact // Артефакт","type":"artifact","T":"1"},
+{"x":1255,"y":209,"title":"Гриб-Веселка","type":"mushroom"},
+{"x":1248,"y":215,"title":"Гриб-Веселка","type":"mushroom"},
+{"x":1256,"y":219,"title":"Гриб-Веселка","type":"mushroom"}
 ]
