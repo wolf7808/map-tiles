@@ -1,4 +1,4 @@
-<script>
+
 /* ============================= ГЛОБАЛЬНЫЕ ============================= */
 const TILE_COUNT = 16;
 const TILE_SIZE = 128;
@@ -796,4 +796,4 @@ document.addEventListener('touchend', e => {
 
 
 
-</script>
+
