@@ -23,6 +23,10 @@
 "loading_community": "Загрузка маркеров сообщества...//Loading community markers...",
 "community_loaded": "Маркеры загружены!//Markers loaded!",
 "community_error": "Ошибка загрузки маркеров//Failed to load markers",
+"marker_menu_title": "Маркер//Marker",
+"marker_menu_edit": "Редактировать//Edit",
+"marker_menu_delete": "Удалить//Delete",
+"marker_menu_cancel": "Отмена//Cancel"
 "npc": "NPC//NPC",
 "places": "Места//Locations",
 "other": "Прочее//Other",
