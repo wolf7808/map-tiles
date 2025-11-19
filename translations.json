@@ -65,6 +65,25 @@
 "$wmodule_d": "Оружейные обвесы//Weapon Kit",
 "$ammo": "Патроны//Ammo",
 "$quest": "Задание//Quest",
+"$questravensshadow": "'Тень Ворона'//'Raven's Shadow'",
+"$questwalkingdead": "'Бродячие мертвецы'//'Walking Dead'",
+"$questthreeleggedfedya": "'Трехногий Федя'//'Three-legged Fedya'",
+"$questtheironman": "'Железный Человек'//'The iron Man'",
+"$questgreedofthief": "'Жадность фраера'//'Greed of a Thief'",
+"$questdownedpilot": "'Сбитый летчик'//'Downed Pilot'",
+"$questsqualedeal": "'Честная сделка'//'Square Deal'",
+"$questsheepsking": "'Овечья шкура'//'Sheep Skin'",
+"$questoldchampion": "'Старый чемпион'//'Old champion'",
+"$questpointofview": "'Точка обзора'//'Point of View'",
+"$questInspiteofdeath": "'Смерти вопреки'//'In spite of death'",
+"$questbomber": "'Подрывник'//'Bomber'",
+"$questdesertlunch": "'Пустынный обед'//'Desert Lunch'",
+"$questhunterprey": "'Охотник — добыча'//'Hunter — Prey'",
+"$questblastfromthepast": "'Привет из прошлого'//'Blast From The Past'",
+"$questdeadarmadillos": "'Мертвые броненосцы'//'Dead Armadillos'",
+"$questskyhunter": "'Небесный охотник'//'Sky Hunter'",
+"$questtheonlywitness": "'Единственный свидетель'//'The Only Witness'",
+"$questoldfriendlair": "'Логово старого друга'//'Old Friend's Lair'",
 "$warehouse": "Склад//Storage",
 "$trader": "Торговец//Trader",
 "$outpost": "Аванпост//Outpost",
@@ -129,9 +148,4 @@
 "$woodc": "Ящик с деревом//Crate of Wood",
 "$fishc": "Ящик с рыбой//Crate of Fish",
 "$natc": "Ящик с мусором//Crate of Trash"
-
 }
-
-
-
-
