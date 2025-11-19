@@ -26,7 +26,7 @@
 "marker_menu_title": "Маркер//Marker",
 "marker_menu_edit": "Редактировать//Edit",
 "marker_menu_delete": "Удалить//Delete",
-"marker_menu_cancel": "Отмена//Cancel"
+"marker_menu_cancel": "Отмена//Cancel",
 "npc": "NPC//NPC",
 "places": "Места//Locations",
 "other": "Прочее//Other",
@@ -116,4 +116,5 @@
 "$woodc": "Ящик с деревом//Crate of Wood",
 "$fishc": "Ящик с рыбой//Crate of Fish",
 "$natc": "Ящик с мусором//Crate of Trash"
+
 }
