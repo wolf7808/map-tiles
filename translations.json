@@ -44,7 +44,7 @@
 "places": "Места//Locations",
 "other": "Прочее//Other",
 "loot": "Лут//Loot",
-"containers": "Контейнеры//Containers",
+"container": "Контейнеры//Containers",
 "$poi": "Интерес//POI",
 "$poi_d": "Место интереса//Point of Interest",
 "$challenge": "Испытание//Trial",
@@ -131,6 +131,7 @@
 "$natc": "Ящик с мусором//Crate of Trash"
 
 }
+
 
 
 
