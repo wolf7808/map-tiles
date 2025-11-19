@@ -35,6 +35,8 @@
 "marker_menu_prompt_desc": "Описание маркера://Marker description:",
 "marker_menu_prompt_loot_title": "Название зоны лута://Loot zone name:",
 "marker_menu_prompt_loot_desc": "Список лута через запятую//Loot list comma-separated)",
+"marker_menu_delete_confirm": "Удалить этот маркер?//Delete this marker?",
+"marker_menu_delete_loot_confirm": "Удалить эту зону лута?//Delete this loot zone?",
 "help": "Помощь//Help",
 "help_title": "Помощь//Help",
 "help_body": "Навигация по карте:\n • ЛКМ (быстрый тап) — показать описание метки.\n • Колесо мыши / Pinch-to-zoom (щипок на планшете) — приближение и отдаление.\n\nРабота с метками:\n • ПКМ (долгий тап) по метке — изменить или удалить метку.\n • ПКМ (долгий тап) по пустой карте — поставить новую метку.\n\nИмпорт / экспорт:\n • Export JSON — сохранить все текущие метки в файл JSON.\n • Import JSON — загрузить метки из файла JSON.\n • Очистка — удалить все пользовательские метки.\n • Загрузить маркеры сообщества — (описание напишите позже).\n\nХотите поделиться своими метками? Напишите автору.//Map navigation:\n • Left-click (short tap) – show marker tooltip.\n • Mouse wheel / Pinch-to-zoom (on touch devices) – zoom in or out.\n\nWorking with markers:\n • Right-click (long tap) on a marker – edit or delete the marker.\n • Right-click (long tap) on empty map – place a new marker.\n\nImport / Export:\n • Export JSON – save current markers to a JSON file.\n • Import JSON – load markers from a JSON file.\n • Clear– remove all user markers.\n • Load community markers – (description to be added).\n\nWant to share your markers? Contact the author.",
@@ -129,5 +131,6 @@
 "$natc": "Ящик с мусором//Crate of Trash"
 
 }
+
 
 
