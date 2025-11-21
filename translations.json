@@ -116,6 +116,7 @@
 "lastgift": "Последний подарок//Last Gift",
 "chitin": "Паучий хитин//Spider Сhitin",
 "fish_c": "Рыба//Fish",
+"medkit_9": "Медицинская сумка//Medbag",
 "foodc": "Ящик с едой//Crate of Food",
 "industrialc": "Индустриальный ящик//Industrial Crate",
 "militaryc": "Военный ящик//Military Crate",
@@ -162,7 +163,6 @@
 "$matryoshka": "Матрешка//Matryoshka",
 "$medal": "Медаль//Medal",
 "$teddybear": "Медвежонок//TeddyBear",
-"$medkit_9": "Медицинская сумка//Medbag",
 "$bint": "Медицинский бинт//Medical Bandage",
 "$microscope": "Микроскоп//Microscope",
 "$meatpie": "Мясной пирог//Meat Pie",
@@ -226,6 +226,7 @@
 "$casio": "Электронные часы//Digital Watch",
 "$electric": "Электросчетчик//Electric Meter"
 }
+
 
 
 
