@@ -184,7 +184,7 @@
 "$plastic_1": "Пластиковый мусор//Plastic Trash",
 "$liner": "Поврежденная бронеплита//Damaged Armor Liner",
 "$candlestick": "Подсвечник//Candlestick",
-"$goldbox": "Позолоченная шкатулка/Gilded Jewel Box",
+"$goldbox": "Позолоченная шкатулка//Gilded Jewel Box",
 "$powder": "Порох//Gunpowder",
 "$wood_3": "Пропитанная древесина//Impregnated Wood",
 "$fabric_3": "Пропитанная ткань//Impregnated Fabric",
@@ -226,6 +226,7 @@
 "$casio": "Электронные часы//Digital Watch",
 "$electric": "Электросчетчик//Electric Meter"
 }
+
 
 
 
