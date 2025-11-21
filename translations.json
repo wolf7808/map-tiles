@@ -39,7 +39,7 @@
 "marker_menu_delete_loot_confirm": "Удалить эту зону лута?//Delete this loot zone?",
 "map_menu_add_container": "Добавить контейнер//Add Container",
 "container_create_title": "Добавить контейнер//Add Container",
-"container_create_hint": "Выберите тип контейнера — он сразу будет добавлен на карту в выбранную точку.\n\n • Контейнер с мусором — Мусорные пакеты, стиральные машины, умывальники.\n\n • Военный контейнер — Голубые ящики с патронами.\n\n • Контейнер с рыбой — Бочки с рыбой.\n\n • Контейнер с деревом — Верстаки.\n\n • Контейнер с тканью — Корзины, синие сушилки.\n\n • Контейнер с барахлом — Сумки челнока, деревянные ящики.\n\n • Индустр. контейнер — Зеленый ящик с патронами, багажники авто, шкафчики, ящики с инструментами, сейфы, трансформаторные ящики.\n\n • Контейнер с едой — Спортивные сумки, рюкзаки.//Select the container type and it will be immediately added to the map at the selected point.",
+"container_create_hint": "Выберите тип контейнера — он сразу будет добавлен на карту в выбранную точку.\n • Контейнер с мусором — Мусорные пакеты, стиральные машины, умывальники.\n • Военный контейнер — Голубые ящики с патронами.\n • Контейнер с рыбой — Бочки с рыбой.\n • Контейнер с деревом — Верстаки.\n • Контейнер с тканью — Корзины, синие сушилки.\n • Контейнер с барахлом — Сумки челнока, деревянные ящики.\n • Индустр. контейнер — Зеленый ящик с патронами, багажники авто, шкафчики, ящики с инструментами, сейфы, трансформаторные ящики.\n • Контейнер с едой — Спортивные сумки, рюкзаки.//Select the type of container — it will be immediately added to the map at the chosen point.\n • Trash container — Garbage bags, washing machines, sinks.\n • Military container — Blue ammo crates.\n • Fish container — Fish barrels.\n • Wood container — Carpenters.\n • Fabric container — Baskets, blue dryers.\n • Junk container — Shuttle bags, wooden crates.\n • Industrial container — Green ammo crates, car trunks, lockers, toolboxes, safes, transformer boxes.\n • Food container — Sports bags, backpacks.",
 "help": "Помощь//Help",
 "help_title": "Помощь//Help",
 "help_body": "Навигация по карте:\n • ЛКМ (быстрый тап) — показать описание метки.\n • Колесо мыши / Pinch-to-zoom (щипок на планшете) — приближение и отдаление.\n\nРабота с метками:\n • ПКМ (долгий тап) по метке — изменить или удалить метку.\n • ПКМ (долгий тап) по пустой карте — поставить новую метку.\n\nИмпорт / экспорт:\n • Export JSON — сохранить все текущие метки в файл JSON.\n • Import JSON — загрузить метки из файла JSON.\n • Очистка — удалить все пользовательские метки.\n • Загрузить маркеры сообщества — (описание напишите позже).\n\nХотите поделиться своими метками? Напишите автору.//Map navigation:\n • Left-click (short tap) – show marker tooltip.\n • Mouse wheel / Pinch-to-zoom (on touch devices) – zoom in or out.\n\nWorking with markers:\n • Right-click (long tap) on a marker – edit or delete the marker.\n • Right-click (long tap) on empty map – place a new marker.\n\nImport / Export:\n • Export JSON – save current markers to a JSON file.\n • Import JSON – load markers from a JSON file.\n • Clear– remove all user markers.\n • Load community markers – (description to be added).\n\nWant to share your markers? Contact the author.",
@@ -229,6 +229,7 @@
 "$casio": "Электронные часы//Digital Watch",
 "$electric": "Электросчетчик//Electric Meter"
 }
+
 
 
 
