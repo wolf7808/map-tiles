@@ -11,7 +11,7 @@
 "search_placeholder": "Поиск по названию...//Search by name...",
 "search_no_results": "Ничего не найдено//Nothing found",
 "search_results": "Найдено меток: //Found markers: ",
-"add_marker": "Поставить метку//Add Marker",
+"add_marker": "Добавить метку//Add Marker",
 "export": "Экспорт JSON//Export JSON",
 "import": "Импорт JSON//Import JSON",
 "clear_all": "Очистить всё//Clear All",
@@ -27,7 +27,7 @@
 "marker_menu_edit": "Редактировать//Edit",
 "marker_menu_delete": "Удалить//Delete",
 "marker_menu_cancel": "Отмена//Cancel",
-"map_menu_place": "Поставить метку//Place marker",
+"map_menu_place": "Добавить метку//Place marker",
 "marker_menu_cancel": "Отмена//Cancel",
 "marker_menu_edit_title": "Изменить название//Edit title",
 "marker_menu_edit_desc": "Изменить описание//Edit description",
@@ -229,6 +229,7 @@
 "$casio": "Электронные часы//Digital Watch",
 "$electric": "Электросчетчик//Electric Meter"
 }
+
 
 
 
