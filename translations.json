@@ -153,8 +153,8 @@
 "$rottenarmor": "Истлевшая кожаная броня//Rotten Leather Armor",
 "$cardan": "Кардан//Cardan Joint",
 "$leather_1": "Кожа//Leather",
-"$cocktailanomaly": "Коктейль": Аномальный//Cocktail": Anomaly",
-"$cocktailtear": "Коктейль": Слеза опального//Сocktail": Tear of a Fallen",
+"$cocktailanomaly": "Коктейль: Аномальный//Cocktail": Anomaly",
+"$cocktailtear": "Коктейль: Слеза опального//Сocktail": Tear of a Fallen",
 "$handwatch": "Командирские часы//Commander's Watch",
 "$apple": "Красное яблоко//Red Apple",
 "$burner": "Курильница//Incense Burner",
@@ -226,5 +226,6 @@
 "$casio": "Электронные часы//Digital Watch",
 "$electric": "Электросчетчик//Electric Meter"
 }
+
 
 
