@@ -45,6 +45,7 @@
 "help": "Помощь//Help",
 "help_title": "Помощь//Help",
 "help_body": "Навигация по карте:\n • ЛКМ (быстрый тап) — показать описание метки.\n • Колесо мыши / Pinch-to-zoom (щипок на планшете) — приближение и отдаление.\n\nРабота с метками:\n • ПКМ (долгий тап) по метке — изменить или удалить метку.\n • ПКМ (долгий тап) по пустой карте — поставить новую метку.\n\nИмпорт / экспорт:\n • Export JSON — сохранить все текущие метки в файл JSON.\n • Import JSON — загрузить метки из файла JSON.\n • Очистка — удалить все пользовательские метки.\n • Загрузить маркеры сообщества — (описание напишите позже).\n\nХотите поделиться своими метками? Напишите автору.//Map navigation:\n • Left-click (short tap) – show marker tooltip.\n • Mouse wheel / Pinch-to-zoom (on touch devices) – zoom in or out.\n\nWorking with markers:\n • Right-click (long tap) on a marker – edit or delete the marker.\n • Right-click (long tap) on empty map – place a new marker.\n\nImport / Export:\n • Export JSON – save current markers to a JSON file.\n • Import JSON – load markers from a JSON file.\n • Clear– remove all user markers.\n • Load community markers – (description to be added).\n\nWant to share your markers? Contact the author.",
+"help_community": "Если у вас имеются вопросы по игре или карте, можете обращаться на наш Discord-сервер PIONER https://discord.gg/pionergame // If you have any questions about the game or the map, you can contact us on our PIONER Discord server https://discord.gg/pionergame",
 "desc_quick_key_label": "Вставить ключевое слово//Insert Keyword",
 "desc_quick_key_placeholder": "Ключевые слова//Keywords",
 "npc": "NPC//NPC",
@@ -231,6 +232,7 @@
 "$casio": "Электронные часы//Digital Watch",
 "$electric": "Электросчетчик//Electric Meter"
 }
+
 
 
 
