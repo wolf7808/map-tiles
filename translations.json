@@ -1,6 +1,8 @@
 {
-"map1": "Разбойная Пустошь//Rogue Wastelands",
-"map2": "Мрачные Топи//Murky Swamps",
+"map1": "Разбойная Пустошь//Rogue Wasteland",
+"map2": "Мрачные Топи//Gloomy Swamps",
+"map3": "Среднеземье//Midlands",
+"map4": "Грибная равнина//Mushroom Plain",
 "loading": "Загрузка карты...//Loading map...",
 "retry": "Повторить//Retry",
 "connection_error": "Ошибка подключения//Connection error",
@@ -229,6 +231,7 @@
 "$casio": "Электронные часы//Digital Watch",
 "$electric": "Электросчетчик//Electric Meter"
 }
+
 
 
 
