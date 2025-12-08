@@ -1,10 +1,10 @@
-name: Unzip tiles4
+name: Unzip tiles3
 
-# Триггеры: при загрузке tiles4.zip или по кнопке
+# Триггеры: при загрузке tiles3.zip или по кнопке
 on:
   push:
     paths:
-      - 'tiles4.zip'
+      - 'tiles3.zip'
   workflow_dispatch:  # ← кнопка "Run workflow"
 
 # Права: обязательно для git push
@@ -29,26 +29,26 @@ jobs:
 
       - name: Validate ZIP
         run: |
-          if ! file tiles4.zip | grep -q "Zip archive"; then
-            echo "ERROR: tiles4.zip is not a valid ZIP file!"
-            file tiles4.zip
+          if ! file tiles3.zip | grep -q "Zip archive"; then
+            echo "ERROR: tiles3.zip is not a valid ZIP file!"
+            file tiles3.zip
             exit 1
           fi
           echo "ZIP file is valid"
 
-      - name: Unzip tiles4
+      - name: Unzip tiles3
         run: |
-          mkdir -p tiles4
-          unzip -o tiles4.zip -d tiles4/
-          echo "Unzipped $(find tiles4 -type f | wc -l) files into 'tiles4/'"
+          mkdir -p tiles3
+          unzip -o tiles3.zip -d tiles3/
+          echo "Unzipped $(find tiles3 -type f | wc -l) files into 'tiles3/'"
 
       - name: Remove ZIP
-        run: rm -f tiles4.zip
+        run: rm -f tiles3.zip
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
-          git add tiles4/
-          git commit -m "Unpacked tiles4.zip into tiles4/" || echo "No changes to commit"
+          git add tiles3/
+          git commit -m "Unpacked tiles3.zip into tiles3/" || echo "No changes to commit"
           git push origin HEAD:main || echo "Push failed or no changes"
