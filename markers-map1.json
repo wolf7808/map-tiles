@@ -419,5 +419,11 @@
     {"type":"wmodule","T":"9","x":571,"y":416,"title":"$wmodule_d"},
     {"type":"wmodule","T":"9","x":663,"y":647,"title":"$wmodule_d"},
     {"type":"wmodule","T":"9","x":745,"y":406,"title":"$wmodule_d"},
-    {"type":"wmodule","T":"9","x":768,"y":1376,"title":"$wmodule_d"}
+    {"type":"wmodule","T":"9","x":768,"y":1376,"title":"$wmodule_d"},
+{"type":"ammo","x":1245,"y":865,"title":"Патроны"},
+{"type":"trash","x":1241,"y":869,"title":"Хлам"},
+{"type":"weapon","x":1241,"y":866,"title":"обрез"},
+{"type":"weapon","x":1162,"y":1114,"title":"карабин шувалова"},
+{"type":"weapon","x":1014,"y":960,"title":"карабин шувалова"},
+{"type":"chest","x":1017,"y":959,"title":"Сундук"}
 ]
