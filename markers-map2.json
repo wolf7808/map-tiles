@@ -506,5 +506,7 @@
     {"type":"loot","T":31,"x":470,"y":1485,"title":"$loot","description":"$nylon_1, $bread, $medkit, $aramid_1, $robottoy, $comb, $sugarbun, $woodenbox, $hex"},
     {"type":"loot","T":31,"x":1494,"y":1751,"title":"$loot","description":"$painkillers, $hex, $medkit, $bint"},
     {"type":"loot","T":31,"x":1258,"y":1746,"title":"$loot","description":"$painkillers, $wolfhide, $weaponparts_1, $aramid_1"},
-    {"type":"loot","T":31,"x":334,"y":225,"title":"$loot","description":"$aramid_1, $nylon_1, $spirit, $clock, $sugarbun, $hex, $robottoy, $bint"}
+    {"type":"loot","T":31,"x":334,"y":225,"title":"$loot","description":"$aramid_1, $nylon_1, $spirit, $clock, $sugarbun, $hex, $robottoy, $bint"},
+    {"type":"loot","T":31,"x":502,"y":648,"title":"сокровище #1"},
+{"type":"loot","T":31,"x":1228,"y":378,"title":"сокровище #2"}
 ]
