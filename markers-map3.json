@@ -72,5 +72,19 @@
 {"type":"crystal","x":900,"y":827,"title":"осколки токсинита"},
 {"type":"artifact","x":897,"y":828,"title":"Артефакт"},
 {"type":"crystal","x":898,"y":821,"title":"осколки токсинита"},
-{"type":"wmodule","x":841,"y":725,"title":"Обвесы"}
+{"type":"wmodule","x":841,"y":725,"title":"Обвесы"},
+    {"type":"boss","x":908,"y":818,"title":"Леший"},
+{"type":"material","x":1145,"y":303,"title":"Материалы, зеленый ящик"},
+{"type":"cards","x":913,"y":1222,"title":"Карты"},
+{"type":"chest","x":911,"y":1207,"title":"Сундук синий"},
+{"type":"solenoid","x":814,"y":1278,"title":"Соленоид"},
+{"type":"challenge","x":375,"y":744,"title":"Испытание"},
+{"type":"challenge","x":339,"y":765,"title":"Испытание"},
+{"type":"material","x":352,"y":728,"title":"Материалы зеленые"},
+{"type":"chest","x":304,"y":691,"title":"Сундук"},
+{"type":"poi","x":1351,"y":695,"title":"Интерес"},
+{"type":"material","x":1252,"y":700,"title":"Материалы зеленые"},
+{"type":"mushroom","x":895,"y":881,"title":"Веселка"},
+{"type":"artifact","x":891,"y":884,"title":"Артефакт"},
+{"type":"mushroom","x":889,"y":892,"title":"Веселка"}
 ]
