@@ -86,5 +86,21 @@
 {"type":"material","x":1252,"y":700,"title":"Материалы зеленые"},
 {"type":"mushroom","x":895,"y":881,"title":"Веселка"},
 {"type":"artifact","x":891,"y":884,"title":"Артефакт"},
-{"type":"mushroom","x":889,"y":892,"title":"Веселка"}
+{"type":"mushroom","x":889,"y":892,"title":"Веселка"},
+    {"type":"weapon","x":965,"y":1220,"title":"Оружейный ящик"},
+{"type":"material","T":"2","x":803,"y":1100,"title":"Материалы, синий ящик"},
+{"type":"weapon","x":790,"y":1099,"title":"Оружейный ящик"},
+{"type":"weapon","x":285,"y":990,"title":"Оружейный ящик"},
+{"type":"material","T":"1","x":284,"y":970,"title":"Материалы, зеленый ящик"},
+{"type":"challenge","x":750,"y":836,"title":"Испытание"},
+{"type":"material","x":299,"y":1037,"title":"Материалы"},
+{"type":"chest","x":481,"y":1158,"title":"Сундук"},
+{"type":"chest","T":"1","x":594,"y":1165,"title":"Сундук зеленый"},
+{"type":"chest","x":695,"y":1185,"title":"Сундук"},
+{"type":"cards","x":1520,"y":575,"title":"Карты"},
+{"type":"material","x":480,"y":382,"title":"Материалы"},
+{"type":"chest","T":"1","x":372,"y":483,"title":"Сундук зеленый"},
+{"type":"material","T":"1","x":1205,"y":856,"title":"Материалы зеленые"},
+{"type":"teleport","x":941,"y":1709,"title":"Телепорт"},
+{"type":"material","x":998,"y":1660,"title":"Материалы"}
 ]
